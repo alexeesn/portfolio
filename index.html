@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo.PNG">
+    <title>Alexis | Portfolio</title>
+</head>
+<body>
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">
+    <i class="bi bi-arrow-up"></i>
+</button>
+<header>      
+    <a href="#main" class="logo">
+        <img src="img/logo.PNG" alt="Logo" class="logo-img">
+        ALEXIS
+    </a>
+
+    <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav id="nav-menu">
+        <ul class="nav-links">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main id="main">
+        <div class="main-container">
+            <div class="intro">
+                <p class="hello">Hello World, I'm</p>
+                <h1 class="name">Alexis Teodosio</h1>
+                <h1 class="text">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </h1>
+                <p class="add-details">
+                    Welcome to my personal website. <span class="chome-hearts"><img src="img/logo.PNG" alt=""></span>
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/alexeeesh" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/_aeilsxx_/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/alexeesn" target="_blank"><i class="bi bi-github"></i></a>
+                </div>
+                <a href="#contact"><button class="hire-me" id="#">Hire me</button></a> 
+            </div>
+        </div>
+
+        <div class="profile">
+            <img src="img/main-profile.jpg">
+        </div>
+    </main>
+
+    <section id="about-me">
+        <div class="about-me">
+            <div class="about-me-text">About Me <span></span> <img src="img/logo.PNG" alt=""></div>
+            <div class="about-content">
+                <div class="about-pfp">
+                    <img src="img/account-profile.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-description">
+                    <p>
+                        I'm Alexis Teodosio, a future full-stack web developer and passionate IT student. I specialize in building responsive, user-friendly websites while continuously learning modern technologies in both front-end and back-end development. My goal is to craft clean, functional code and bring digital ideas to life through innovative solutions and design.
+                    </p>
+                    <br>
+                    <p>
+                        I'm driven by curiosity and a desire to solve real-world problems through technology. Whether it's a simple landing page or a complex web app, I enjoy every step of the development process—from design to deployment—and I'm committed to growing as a developer every day.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <article id="skills">
+        <div class="skills">
+            <div class="skills-text">Skills <span></span><img src="img/logo.PNG" alt=""></div>
+            <div class="tech-stack-text">Tech Stack</div>
+
+            <div class="tech-stack">
+                <div class="tech-stack-container">
+                    <img src="img/logo/html5.svg">
+                    <div class="text-content">
+                        <h3 class="logo-name">HTML</h3>
+                        <p class="exp">Intermediate</p>
+                    </div>
+                </div>
+                <div class="tech-stack-container">
+                    <img src="img/logo/css3.svg">
+                    <div class="text-content">
+                        <h3 class="logo-name">CSS</h3>
+                        <p class="exp">Intermediate</p>
+                    </div>
+                </div>
+                <div class="tech-stack-container">
+                    <img src="img/logo/javascript.svg">
+                    <div class="text-content">
+                        <h3 class="logo-name">JavaScript</h3>
+                        <p class="exp">Intermediate</p>
+                    </div>
+                </div>
+                <div class="tech-stack-container">
+                    <img src="img/logo/csharp.svg">
+                    <div class="text-content">
+                        <h3 class="logo-name">CSharp</h3>
+                        <p class="exp">Intermediate</p>
+                    </div>
+                </div>
+                <div class="tech-stack-container">
+                    <img src="img/logo/tailwind.svg">
+                    <div class="text-content">
+                        <h3 class="logo-name">Tailwind</h3>
+                        <p class="exp">Beginner</p>
+                    </div>
+                </div>
+
+                <div class="tech-stack-fullwidth">Tools</div>
+
+                <div class="tech-stack-container">
+                    <img src="img/logo/github.svg">
+                    <div class="text-content">
+                        <h3 class="logo-name">Github</h3>
+                        <p class="exp">Git Hosting</p>
+                    </div>
+                </div>
+                <div class="tech-stack-container">
+                    <img src="img/logo/mysql.svg">
+                    <div class="text-content">
+                        <h3 class="logo-name">MySql</h3>
+                        <p class="exp">Database</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="projects">
+        <div class="project-container">
+            <h4>Recent Project</h4>
+
+            <div class="project-card">
+                <div class="project-picture">
+                    <img src="img/portfolio-project.png" alt="">
+                </div>
+                <div class="project-details">
+                    <div class="project-title">Personal Website</div>
+                    <p>
+                        My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.
+                    </p>
+                    <div class="language-use">HTML, CSS, JavaScript</div>
+                    <div class="project-logo">
+                        <div class="tooltip-container">
+                            <a href="https://github.com/alexeesn/personal-portfolio" target="_blank">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <div class="project-logo-tooltip">View GitHub Repository</div>
+                        </div>
+                        <div class="tooltip-container">
+                            <a href="#home" target="_blank">
+                                <i class="bi bi-arrow-down-right-square"></i>
+                            </a>
+                            <div class="project-logo-tooltip">View Finished Project</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-picture">
+                    <img src="img/calculator app.png" alt="">
+                </div>
+                <div class="project-details">
+                    <div class="project-title">Calculator</div>
+                    <p>
+                        I created a calculator using C# for our final project, focusing on basic arithmetic functions and UI design with Windows Forms.
+                    </p>
+                    <div class="language-use">C#</div>
+                    <div class="project-logo"></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-picture">
+                    <img src="img/fb-project.png" alt="">
+                </div>
+                <div class="project-details">
+                    <div class="project-title">Facebook Clone</div>
+                    <p>
+                        I’m currently working on a Facebook clone to practice and improve my HTML and CSS skills.
+                        It's still a work in progress, but it's helping me understand layout techniques, responsive design,
+                        and modern UI structure.
+                    </p>
+                    <div class="language-use">HTML, CSS</div>
+                    <div class="project-logo">
+                        <div class="tooltip-container">
+                            <a href="https://github.com/alexeesn/facebook-clone" target="_blank">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <div class="project-logo-tooltip">View GitHub Repository</div>
+                        </div>
+                        <div class="tooltip-container">
+                            <a href="https://alexeesn.github.io/facebook-clone/fb%20clone/post.html" target="_blank">
+                                <i class="bi bi-arrow-down-right-square"></i>
+                            </a>
+                            <div class="project-logo-tooltip">View Finished Project</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's build something amazing together!</p>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <i class="bi bi-geo-alt"> 4129 Blk 6, Caloocan City</i>
+            <i class="bi bi-telephone"> + 63 992*******0</i>
+            <i class="bi bi-envelope"> teodosioalexis@gmail.com</i>
+        </div>
+        <div class="footer-right">
+            <p>&copy; 2025 Alexis Teodosio. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+
+    <script src="script.js"></script>
+</body>
+</html>
